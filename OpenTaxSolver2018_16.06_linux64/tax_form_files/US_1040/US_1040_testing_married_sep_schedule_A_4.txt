@@ -1,0 +1,129 @@
+Title:  US Federal 1040 Tax Form - 2018
+
+Status Married/Sep
+You_65+Over? N
+You_Blind? N
+Spouse_65+Over? Y
+Spouse_Blind? N
+HealthCoverage? N
+Dependents 1
+L1 13377.39 ;
+L2a  ;
+L2b 67.21 ;
+L3a 146.51 ;
+L3b 253.91 ;
+L4a 41.41 ;
+L4b 41.0 ;
+L5a  ;
+L9  ;
+L12a  ;
+L16  ;
+L17a  ;
+L17b  ;
+L17c  ;
+CapGains-A/D 
+	-800.99        6-20-19         { 40 Shares WMT }
+  	 950.99        10-12-19
+
+        -800.99        6-20-2019       { 40 Shares AAP }
+         950.99        10-12-19
+
+        -3658.22        1-15-19        { 100 Shares XOM }
+         4209.95        12-25-19
+
+        -4949.98        3-26-17        { 500 Shares NAB }
+         6009.01        12-27-2019
+
+        -4949.98        3-26-11         { 500 Shares FBK  }
+         6009.01        12-27-2019
+       ;
+CapGains-B/E 
+      100 1-1-1980    { IBM }
+        1000 2-2-2020
+
+        8000 12-24-1980 { SNA }
+        1000 12-28-19
+     ;
+CapGains-C/F 
+      900 1-1-1980    { MSFT }
+      9000 2-2-2019
+      100 1-1-1980    { CLF }
+      4000 2-2-2019
+     ;
+D4  ;
+D5  ;
+D6  ;
+D11  ;
+D12  ;
+D13  ;
+D14  ;
+Collectibles  ;
+S1_10 20.11 ;
+S1_11  ;
+S1_12  ;
+S1_14 17.18 ;
+S1_17  ;
+S1_18  ;
+S1_19  ;
+S1_21 12.33 ;
+S1_23 6.1 ;
+S1_24  ;
+S1_25  ;
+S1_26  ;
+S1_27  ;
+S1_28  ;
+S1_29  ;
+S1_30  ;
+S1_31a  ;
+S1_32  ;
+S1_33 44.08 ;
+A1  ;
+A5a 3447.44 ;
+A5b 1771.05 ;
+A5c  ;
+A6  ;
+A8a  ;
+A8b  ;
+A8c  ;
+A9  ;
+A11  ;
+A12  ;
+A13  ;
+A15  ;
+A16  ;
+B7a N ;
+B7aa   ;
+B7b   ;
+B8 N ;
+AMTws2c  ;
+AMTws2g  ;
+S2_46  ;
+S3_48 14.15 ;
+S3_49  ;
+S3_50  ;
+S3_51 31.31 ;
+S3_53  ;
+S3_54  ;
+S4_57 12.67 ;
+S4_58  ;
+S4_59  ;
+S4_60a 34.23 ;
+S4_60b  ;
+S4_61  ;
+S4_62  ;
+S4_63  ;
+S5_66  ;
+S5_70  ;
+S5_71 8.1 ;
+S5_72  ;
+S5_73  ;
+S5_74  ;
+Your1stName:	 F, D. 
+YourLastName:   Smy 
+YourSocSec#: 	 109-11-1111 
+Spouse1stName:  S, M 
+SpouseLastName:  Smy 
+SpouseSocSec#:   109-11-1112 
+Number&Street:  1567 W. Hamptonshire 
+Apt#: 
+TownStateZip:	Springfield, IL 62722 

@@ -1,0 +1,363 @@
+
+Title:  US Federal 1040 Tax Form - 2018,	 v16.05, Sun Sep 25 05:07:09 2022
+
+Status = Married/Joint (2)
+CkMFJ X
+CkYourself X
+CkSpouse X
+L6ab = 2
+L1 = 162131.00
+L2b =  67.21
+L3a = 146.51
+L3b = 253.91
+L4a =  41.41
+L4b =  41.00
+L5a =   0.00
+
+Form(s) 8949:
+
+Form 8949 Part-I, Short-Term Cap Gains+Losses, CHECK (A) Basis Reported to IRS:
+ 1. (a Description)         (b Buy Date) (c Date Sold) (d Sold Price) (e Cost) (h Gain)
+ ---------------------------------------------------------------------------------------
+  40 Shares WMT                 6-20-19   10-12-19         950.99         800.99         150.00
+  40 Shares AAP               6-20-2019   10-12-19         950.99         800.99         150.00
+  100 Shares XOM                1-15-19   12-25-19        4209.95        3658.22         551.73
+ ---------------------------------------------------------------------------------------
+ 2. Totals:                                               6111.93        5260.20         851.73
+
+PDFpage: 13 13
+ F8949_ckA X
+ F8949_1aa:  40 Shares WMT 
+ F8949_1ab: 6-20-19
+ F8949_1ac: 10-12-19
+ F8949_1ad =         950.99
+ F8949_1ae =         800.99
+ F8949_1ah =         150.00
+ F8949_1ba:  40 Shares AAP 
+ F8949_1bb: 6-20-2019
+ F8949_1bc: 10-12-19
+ F8949_1bd =         950.99
+ F8949_1be =         800.99
+ F8949_1bh =         150.00
+ F8949_1ca:  100 Shares XOM 
+ F8949_1cb: 1-15-19
+ F8949_1cc: 12-25-19
+ F8949_1cd =        4209.95
+ F8949_1ce =        3658.22
+ F8949_1ch =         551.73
+ F8949_2d =        6111.93
+ F8949_2e =        5260.20
+ F8949_2h =         851.73
+EndPDFpage.
+
+
+Form 8949 Part-II, Long-Term Cap Gains+Losses, CHECK (D) Basis Reported to IRS:
+ 3. (a Description)         (b Buy Date) (c Date Sold) (d Sold Price) (e Cost) (h Gain)
+ ---------------------------------------------------------------------------------------
+  500 Shares NAB                3-26-17 12-27-2019        6009.01        4949.98        1059.03
+  500 Shares FBK                3-26-11 12-27-2019        6009.01        4949.98        1059.03
+ ---------------------------------------------------------------------------------------
+ 4. Totals:                                              12018.02        9899.96        2118.06
+
+PDFpage: 14 14
+ F8949_ckD X
+ F8949_1aa:  500 Shares NAB 
+ F8949_1ab: 3-26-17
+ F8949_1ac: 12-27-2019
+ F8949_1ad =        6009.01
+ F8949_1ae =        4949.98
+ F8949_1ah =        1059.03
+ F8949_1ba:  500 Shares FBK  
+ F8949_1bb: 3-26-11
+ F8949_1bc: 12-27-2019
+ F8949_1bd =        6009.01
+ F8949_1be =        4949.98
+ F8949_1bh =        1059.03
+ F8949_2d =       12018.02
+ F8949_2e =        9899.96
+ F8949_2h =        2118.06
+EndPDFpage.
+
+
+Form 8949 Part-II, Long-Term Cap Gains+Losses, CHECK (E) Basis NOT Reported to IRS:
+ 3. (a Description)         (b Buy Date) (c Date Sold) (d Sold Price) (e Cost) (h Gain)
+ ---------------------------------------------------------------------------------------
+  IBM                          1-1-1980   2-2-2020        1000.00         100.00         900.00
+  SNA                        12-24-1980   12-28-19        1000.00        8000.00       -7000.00
+ ---------------------------------------------------------------------------------------
+ 4. Totals:                                               2000.00        8100.00       -6100.00
+
+PDFpage: 14 14
+ F8949_ckE X
+ F8949_1aa:  IBM 
+ F8949_1ab: 1-1-1980
+ F8949_1ac: 2-2-2020
+ F8949_1ad =        1000.00
+ F8949_1ae =         100.00
+ F8949_1ah =         900.00
+ F8949_1ba:  SNA 
+ F8949_1bb: 12-24-1980
+ F8949_1bc: 12-28-19
+ F8949_1bd =        1000.00
+ F8949_1be =        8000.00
+ F8949_1bh =       -7000.00
+ F8949_2d =        2000.00
+ F8949_2e =        8100.00
+ F8949_2h =       -6100.00
+EndPDFpage.
+
+
+Form 8949 Part-II, Long-Term Cap Gains+Losses, CHECK (F) Not reported on Form 1099-B.
+
+ 3. (a Description)         (b Buy Date) (c Date Sold) (d Sold Price) (e Cost) (h Gain)
+ ---------------------------------------------------------------------------------------
+  MSFT                         1-1-1980   2-2-2019        9000.00         900.00        8100.00
+  CLF                          1-1-1980   2-2-2019        4000.00         100.00        3900.00
+ ---------------------------------------------------------------------------------------
+ 4. Totals:                                              13000.00        1000.00       12000.00
+
+PDFpage: 14 14
+ F8949_ckF X
+ F8949_1aa:  MSFT 
+ F8949_1ab: 1-1-1980
+ F8949_1ac: 2-2-2019
+ F8949_1ad =        9000.00
+ F8949_1ae =         900.00
+ F8949_1ah =        8100.00
+ F8949_1ba:  CLF 
+ F8949_1bb: 1-1-1980
+ F8949_1bc: 2-2-2019
+ F8949_1bd =        4000.00
+ F8949_1be =         100.00
+ F8949_1bh =        3900.00
+ F8949_2d =       13000.00
+ F8949_2e =        1000.00
+ F8949_2h =       12000.00
+EndPDFpage.
+
+ Cap Gains/Losses Schedule-D
+PDFpage: 11 11
+	Net Forms-8949 Short-term Gains =     851.73
+	Net Forms-8949 Long-term Gains  =    8018.06
+ D1bd =    6111.93
+   D1be =    5260.20
+    D1bh =     851.73
+ D2d =       0.00
+   D2e =       0.00
+    D2h =       0.00
+ D3d =       0.00
+   D3e =       0.00
+    D3h =       0.00
+ D4 =   0.00
+ D5 =   0.00
+ D6 =   0.00		(Carry-over Loss)
+ D7 = 851.73		{ Net short-term capital gain or loss }
+ D8bd =   12018.02
+   D8be =    9899.96
+   D8bh =    2118.06
+ D9d =    2000.00
+   D9e =    8100.00
+   D9h =   -6100.00
+ D10d =   13000.00
+   D10e =    1000.00
+   D10h =   12000.00
+ D11 =   0.00
+ D12 =   0.00
+ D13 =   0.00
+ D14 =   0.00	(Carry-over Loss)
+ D15 = 8018.06		{ Net long-term capital gain or loss }
+EndPDFpage.
+PDFpage: 12 12
+ D16 = 8869.79
+ D17 = yes
+ CkD17y X
+ D18 =   0.00
+ D19 =   0.00
+ D20 = Yes
+ CkD20y X
+EndPDFpage.
+
+S1_10 =  20.11
+S1_11 =   0.00
+S1_12 =   0.00
+S1_13 = 8869.79
+S1_14 =  17.18
+S1_21 =  12.33
+S1_22 = 8919.41
+S1_23 =   6.10
+S1_33 =   0.00
+S1_36 =   6.10
+L5b =   0.00
+L6 = 171412.53		Total Income
+L7 = 171406.43		Adjusted Gross Income
+ A2 = 171406.43
+ A3 = 12855.48
+A5a =   0.00
+A5b = 1771.05
+A5c =   0.00
+A5d = 1771.05
+A5e = 1771.05
+ A7 = 1771.05
+A8a =   0.00
+A8b =   0.00
+A8b =   0.00
+A8e =   0.00
+ A17 = 1771.05
+ Schedule-B:
+  B2 =  67.21
+  B4 =  67.21
+  B6 = 253.91
+StdDedChart_NumBoxesChecked = 0
+	(Itemizations < Std-Deduction, 1771.05 < 24000.00)
+Use standard deduction.
+L8 = 24000.00
+L9 =   0.00
+L10 = 147406.43		Taxable Income
+Doing 'Qualified Dividends and Capital Gain tax Worksheet', page 44.
+	Qual. Div & Gains WorkSheet 1:  147406.43
+	Qual. Div & Gains WorkSheet 2:    146.51
+		3: Check Yes.
+	Qual. Div & Gains WorkSheet 3:   8018.06
+	Qual. Div & Gains WorkSheet 4:   8164.57
+	Qual. Div & Gains WorkSheet 5:      0.00
+	Qual. Div & Gains WorkSheet 6:   8164.57
+	Qual. Div & Gains WorkSheet 7:  139241.86
+	Qual. Div & Gains WorkSheet 8:  77200.00
+	Qual. Div & Gains WorkSheet 9:  77200.00
+	Qual. Div & Gains WorkSheet 10:  77200.00
+	Qual. Div & Gains WorkSheet 11:      0.00
+	Qual. Div & Gains WorkSheet 12:   8164.57
+	Qual. Div & Gains WorkSheet 13:      0.00
+	Qual. Div & Gains WorkSheet 14:   8164.57
+	Qual. Div & Gains WorkSheet 15:  479000.00
+	Qual. Div & Gains WorkSheet 16:  147406.43
+	Qual. Div & Gains WorkSheet 17:  139241.86
+	Qual. Div & Gains WorkSheet 18:   8164.57
+	Qual. Div & Gains WorkSheet 19:   8164.57
+	Qual. Div & Gains WorkSheet 20:   1224.69
+	Qual. Div & Gains WorkSheet 21:   8164.57
+	Qual. Div & Gains WorkSheet 22:      0.00
+	Qual. Div & Gains WorkSheet 23:      0.00
+	Qual. Div & Gains WorkSheet 24:  22512.21
+	Qual. Div & Gains WorkSheet 25:  23736.89
+	Qual. Div & Gains WorkSheet 26:  24308.41
+	Qual. Div & Gains WorkSheet 27:  23736.89
+L11a = 23736.89
+CkB7a_N X
+CkB8_N X
+Review AMT form6251 routine for your situation.
+ 		AMT_Form_6251_L1 = 147406.43
+ 		AMT_Form_6251_L2a = 24000.00
+ 		AMT_Form_6251_L2b = -32.44
+ 		AMT_Form_6251_L2e =  12.33
+ 		AMT_Form_6251_L2 = 23979.89
+ 		AMT_Form_6251_L4 = 171386.32
+ 		AMT_Form_6251_L5 = 109400.00
+ 		AMT_Form_6251_L6 = 61986.32
+ 		AMT_Form_6251_L7 = 15218.34
+ 		AMT_Form_6251_L9 = 15218.34
+ 		AMT_Form_6251_L10 = 23722.74
+ 		AMT_Form_6251_L11 =     0.00
+ 		AMT_Form_6251_L12 = 61986.32
+ 		AMT_Form_6251_L13 =  8164.57
+ 		AMT_Form_6251_L15 =  8164.57
+ 		AMT_Form_6251_L16 =  8164.57
+ 		AMT_Form_6251_L17 = 53821.75
+ 		AMT_Form_6251_L18 = 13993.66
+ 		AMT_Form_6251_L19 = 77200.00
+ 		AMT_Form_6251_L20 = 139241.86
+ 		AMT_Form_6251_L22 =  8164.57
+ 		AMT_Form_6251_L24 =  8164.57
+ 		AMT_Form_6251_L25 = 479900.00
+ 		AMT_Form_6251_L27 = 139241.86
+ 		AMT_Form_6251_L28 = 139241.86
+ 		AMT_Form_6251_L29 = 340658.14
+ 		AMT_Form_6251_L30 =  8164.57
+ 		AMT_Form_6251_L31 =  1224.69
+ 		AMT_Form_6251_L32 =  8164.57
+ 		AMT_Form_6251_L38 = 15218.34
+ 		AMT_Form_6251_L39 = 16116.44
+ 		AMT_Form_6251_L40 = 15218.34
+	AMTws[11] = Abs( 15218.34 - 23722.74 ) = Abs( -8504.40 )
+Your Alternative Minimum Tax =     0.00
+ (Not subject to Alternative Minimum Tax.)
+S2_46 =   0.00
+S2_47 =   0.00
+L11 = 23736.89
+ You are in the 22.0% marginal tax bracket,
+ and you are paying an effective 16.5% tax on your income.
+S3_48 =  14.15
+S3_49 =   0.00
+S3_50 =   0.00
+S3_51 =  31.31
+S3_53 =   0.00
+S3_54 =   0.00
+S3_55 =  45.46
+L12 =  45.46
+L13 = 23691.43
+S4_57 =  12.67
+S4_60a =  34.23
+S4_64 =  46.90
+L14 =  46.90
+L15 = 23738.33		Total Tax
+L16 =   0.00
+S5_71 =   8.10
+S5_75 =   8.10
+L17a = 207.00
+L17 = 215.10
+L18 = 215.10		Total Payments
+L22 = 23523.23  DUE !!!
+         (Which is 99.1% of your Total Federal Tax.)
+------------------------------
+
+{ --------- Identity-Information:  --------- }
+Your1stName: F, D.
+YourLastName: Smy
+YourSocSec#: 109 11 1111
+Spouse1stName: S, M
+SpouseLastName: Smy
+SpouseSocSec#: 109 11 1112
+YourNames: F, D. & S, M, Smy
+Number&Street: 1567 W. Hamptonshire
+Apt#: 
+TownStateZip: Springfield, IL 62722
+
+Schedules Data:
+ B1_1_Text: 
+ B1_1    67.21
+ B1_2_Text: 
+ B1_3_Text: 
+ B1_4_Text: 
+ B1_5_Text: 
+ B1_6_Text: 
+ B1_7_Text: 
+ B1_8_Text: 
+ B1_9_Text: 
+ B1_10_Text: 
+ B1_11_Text: 
+ B1_12_Text: 
+ B1_13_Text: 
+ B1_14_Text:  40 Shares WMT 
+ B1_14  -800.99
+PDFpage: 10 10
+SchedB_Additional_form:  Schedule B - Additional Interest Income
+ Baddi_1_Text: 
+ Baddi_1   950.99
+ Baddi_2_Text:  40 Shares AAP 
+ Baddi_2  -800.99
+ Baddi_3_Text: 
+ Baddi_3   950.99
+ Baddi_4_Text:  100 Shares XOM 
+ Baddi_4 -3658.22
+ Baddi_5_Text: 
+ Baddi_5  4209.95
+ Baddi_6_Text:  500 Shares NAB 
+ Baddi_6 -4949.98
+ Baddi_7_Text: 
+ Baddi_7  6009.01
+ Baddi_8_Text:  500 Shares FBK  
+ Baddi_8 -4949.98
+ Baddi_9_Text: 
+ Baddi_9  6009.01
+Btotal =  3770.78
+EndPDFpage.

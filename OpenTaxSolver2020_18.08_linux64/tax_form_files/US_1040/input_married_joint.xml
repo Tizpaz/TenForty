@@ -1,0 +1,1162 @@
+<?xml version="1.0"?>
+ <inputs>
+  <param0>
+    <section>Your Filing Status</section>
+    <subsection></subsection>
+    <name>Status</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>4</max>
+    <def>1</def>
+    <valtrans>Single</valtrans>
+    <valtrans>Married/Joint</valtrans>
+    <valtrans>Head_of_House</valtrans>
+    <valtrans>Married/Sep</valtrans>
+    <valtrans>Widow(er)</valtrans>
+  </param0>
+  <param1>
+    <section>Your Filing Status</section>
+    <subsection></subsection>
+    <name>You_65+Over?</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>N</valtrans>
+    <valtrans>Y</valtrans>
+  </param1>
+  <param2>
+    <section>Your Filing Status</section>
+    <subsection></subsection>
+    <name>You_Blind?</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>N</valtrans>
+    <valtrans>Y</valtrans>
+  </param2>
+  <param3>
+    <section>Your Filing Status</section>
+    <subsection></subsection>
+    <name>Spouse_65+Over?</name>
+    <Line></Line>
+      <type>int</type>
+      <min>0</min>
+      <max>1</max>
+      <def>0</def>
+      <valtrans>N</valtrans>
+      <valtrans>Y</valtrans>
+  </param3>
+  <param4>
+    <section>Your Filing Status</section>
+    <subsection></subsection>
+    <name>Spouse_Blind?</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>N</valtrans>
+    <valtrans>Y</valtrans>
+  </param4>
+  <param5>
+    <section>Your Filing Status</section>
+    <subsection></subsection>
+    <name>Dependents</name>
+    <Line></Line>
+    <type>int</type>
+    <min>1</min>
+    <max>5</max>
+    <def>2</def>
+  </param5>
+  <param6>
+    <section>Your Filing Status</section>
+    <subsection></subsection>
+    <name>VirtCurr?</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>N</valtrans>
+    <valtrans>Y</valtrans>
+  </param6>
+  <param7>
+    <section>Income</section>
+    <subsection>Wages, salaries, tips (W-2's Box-1).</subsection>
+    <name>L1</name>
+    <Line>1</Line>
+    <type>float</type>
+    <min>10000.00</min>
+    <max>171050.00</max>
+    <def>48456.23</def>
+  </param7>
+  <param8>
+    <section>Interest</section>
+    <subsection>Tax-Exempt Interest. (Only used for SocialSecurity calculations).</subsection>
+    <name>L2a</name>
+    <Line>2a</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param8>
+  <param9>
+    <section>Interest</section>
+    <subsection>Taxable Interest -- 1099-INT(s) box 1</subsection>
+    <name>L2b</name>
+    <Line>2b</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>67.21</def>
+  </param9>
+  <param10>
+    <section>Dividends</section>
+    <subsection>Qualified Dividends 1099-DIV box 1b</subsection>
+    <name>L3a</name>
+    <Line>3a</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>146.51</def>
+  </param10>
+  <param11>
+    <section>Dividends</section>
+    <subsection>Ordinary Dividends 1099-DIV box 1a.</subsection>
+    <name>L3b</name>
+    <Line>3b</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>253.91</def>
+  </param11>
+  <param12>
+    <section>Other Income and Credits</section>
+    <subsection>IRA distributions.</subsection>
+    <name>L4a</name>
+    <Line>4a</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>100.00</max>
+    <def>41.41</def>
+  </param12>
+  <param13>
+    <section>Other Income and Credits</section>
+    <subsection>Taxable IRA distributions.</subsection>
+    <name>L4b</name>
+    <Line>4b</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>100.00</max>
+    <def>41.00</def>
+  </param13>
+  <param14>
+    <section>Other Income and Credits</section>
+    <subsection>Pensions, Annuites.</subsection>
+    <name>L5a</name>
+    <Line>5a</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>100.00</max>
+    <def>43.43</def>
+  </param14>
+  <param15>
+    <section>Other Income and Credits</section>
+    <subsection>Taxable Pensions, Annuites.</subsection>
+    <name>L5b</name>
+    <Line>5b</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>100.00</max>
+    <def>43.00</def>
+  </param15>
+  <param16>
+    <section>Other Income and Credits</section>
+    <subsection>Social Security benefits.  Forms SSA-1099 box-5.</subsection>
+    <name>L6a</name>
+    <Line>6a</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>100.00</max>
+    <def>0.00</def>
+  </param16>
+  <param17>
+    <section>Other Income and Credits</section>
+    <subsection>Qualified business income deduction.</subsection>
+    <name>L13</name>
+    <Line>13</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>0.00</def>
+  </param17>
+  <param18>
+    <section>Other Income and Credits</section>
+    <subsection>Child tax credit/credit for other dependents.</subsection>
+    <name>L19</name>
+    <Line>19</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>0.00</def>
+  </param18>
+  <param19>
+    <section>Income</section>
+    <subsection>Federal income tax withheld, from W-2's, box-2.</subsection>
+    <name>L25a</name>
+    <Line>25a</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>25000.00</max>
+    <def>3453.59</def>
+  </param19>
+  <param20>
+    <section>Income</section>
+    <subsection>Federal income tax withheld, from 1099's.</subsection>
+    <name>L25b</name>
+    <Line>25b</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>0.00</def>
+  </param20>
+  <param21>
+    <section>Income</section>
+    <subsection>Federal income tax withheld, from other forms.</subsection>
+    <name>L25c</name>
+    <Line>25c</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>0.00</def>
+  </param21>
+  <param22>
+    <section>Income</section>
+    <subsection>Estimated tax payments made for the year.</subsection>
+    <name>L26</name>
+    <Line>26</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>5000.00</max>
+    <def>400.00</def>
+  </param22>
+  <param23>
+    <section>Refundable Credits</section>
+    <subsection>Earned Income Credit (EIC)</subsection>
+    <name>L27</name>
+    <Line>27</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>207.00</def>
+  </param23>
+  <param24>
+    <section>Refundable Credits</section>
+    <subsection>Child Tax Credit, Schedule 8812</subsection>
+    <name>L28</name>
+    <Line>28</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>0.00</def>
+  </param24>
+  <param25>
+    <section>Refundable Credits</section>
+    <subsection>American Opportunity Credit, Form 8863, line 8</subsection>
+    <name>L29</name>
+    <Line>29</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>0.00</def>
+  </param25>
+  <param26>
+    <section>Refundable Credits</section>
+    <subsection>Recovery rebate credit.</subsection>
+    <name>L30</name>
+    <Line>30</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>0.00</def>
+  </param26>
+  <param27>
+    <section>Penalties</section>
+    <subsection>Estimated Tax Under-payment Penalty</subsection>
+    <name>L38</name>
+    <Line>38</Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param27>
+  <param28>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Capital Gains/Losses, 1099-B. For Basis Reported to IRS (Form 8949 check A or D)</subsection>
+    <name>CapGains-A/D</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>
+      -800.99        6-20-20
+      950.99        10-12-20
+     -800.99        6-20-2020
+      950.99        10-12-2020
+      -3658.22        1-15-19
+       4209.95        12-25-20
+      -4949.98        3-26-17
+       6009.01        12-27-2020
+      -4949.98        3-26-11
+       6009.01        12-27-2020
+      </valtrans>
+      <valtrans> </valtrans>
+  </param28>
+  <param29>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Capital Gains/Losses, 1099-B. For Basis NOT Reported to IRS (Form 8949 check B/E)</subsection>
+    <name>CapGains-B/E</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>
+      100 1-1-1980
+      1000 2-2-2020
+      8000 12-24-1980
+      1000 12-28-19
+    </valtrans>
+    <valtrans> </valtrans>
+  </param29>
+  <param30>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Capital Gains/Losses, 1099-B. For when Form 8949 (A,B,D,E) CANNOT be checked. (check C/F)</subsection>
+    <name>CapGains-C/F</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>
+      900 1-1-1980
+      9000 2-2-2020
+      100 1-1-1980
+      4000 2-2-2020
+    </valtrans>
+    <valtrans> </valtrans>
+  </param30>
+  <param31>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Short-term gain from 6252, gain or loss from Forms 4684, 6781, 8824.</subsection>
+    <name>D4</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param31>
+  <param32>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Short-term gain/loss from partnerships, S corps, estates, trusts, K-1.</subsection>
+    <name>D5</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param32>
+  <param33>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Short-term 2019 loss carryover. Or, LastYear's return output File-name.</subsection>
+    <name>D6</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param33>
+  <param34>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Gain from Form 4797.</subsection>
+    <name>D11</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param34>
+  <param35>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Partnership net long-term gains or losses.</subsection>
+    <name>D12</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param35>
+  <param36>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Cap Gains Distributions - 1099-DIV column 2a.</subsection>
+    <name>D13</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param36>
+  <param37>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Long-term 2019 loss carryover. Leave blank if file-name used in line D6.</subsection>
+    <name>D14</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param37>
+  <param38>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Amount, if any, from line 18 of Unrecaptured Section 1250 Gain Worksheet.</subsection>
+    <name>D19</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param38>
+  <param39>
+    <section>Schedule D: Capital Gains/Loses</section>
+    <subsection>Long Term Gain or Loss from Collectibles, Form 8949 Part II. (Usually zero.)</subsection>
+    <name>Collectibles</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param39>
+  <param40>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Taxable refunds.</subsection>
+    <name>S1_1</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>20.11</def>
+  </param40>
+  <param41>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Alimony received.</subsection>
+    <name>S1_2a</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param41>
+  <param42>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Date of divorce or separation.</subsection>
+    <name>S1_2b:</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans> </valtrans>
+    <valtrans>2-2-2020</valtrans>
+  </param42>
+  <param43>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Business income/loss. (Sched C)</subsection>
+    <name>S1_3</name>
+    <Line></Line>
+    <type>float</type>
+    <min>-10000.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param43>
+  <param44>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Other gains or losses. (form 4797)</subsection>
+    <name>S1_4</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>17.18</def>
+  </param44>
+  <param45>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Rent realestate, royalties, partnerships, S corp. (Sched E)</subsection>
+    <name>S1_5</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param45>
+  <param46>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Farm income/loss. (Sched F)</subsection>
+    <name>S1_6</name>
+    <Line></Line>
+    <type>float</type>
+    <min>-10000.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param46>
+  <param47>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Unemployment compensation</subsection>
+    <name>S1_7</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>30000.00</max>
+    <def>0.00</def>
+  </param47>
+  <param48>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Other income. (pg 28) </subsection>
+    <name>S1_8</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>1000.00</max>
+    <def>12.33</def>
+  </param48>
+  <param49>
+    <section>Schedule-1---Additional Income and Adjustments</section>
+    <subsection>Other income. (pg 28) Type </subsection>
+    <name>S1_8_Type:</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans> </valtrans>
+    <valtrans>type1</valtrans>
+  </param49>
+  <param50>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Educator expenses</subsection>
+    <name>S1_10</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>100.00</max>
+    <def>6.10</def>
+  </param50>
+  <param51>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Bus. exp.: reservists, artists, ... Attach Form 2106</subsection>
+    <name>S1_11</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param51>
+  <param52>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Health savings account deduction. Attach Form 8889</subsection>
+    <name>S1_12</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param52>
+  <param53>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Moving expenses. Attach Form 3903</subsection>
+    <name>S1_13</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param53>
+  <param54>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>One-half of self-employment tax. Attach Schedule SE</subsection>
+    <name>S1_14</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param54>
+  <param55>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Self-employed SEP, SIMPLE, and qualified plans</subsection>
+    <name>S1_15</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param55>
+  <param56>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Self-employed health insurance deduction</subsection>
+    <name>S1_16</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param56>
+  <param57>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Penalty on early withdrawal of savings</subsection>
+    <name>S1_17</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param57>
+  <param58>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Alimony paid</subsection>
+    <name>S1_18a</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param58>
+  <param59>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>IRA deduction (Done above)</subsection>
+    <name>S1_19</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param59>
+  <param60>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Student loan interest deduction - page 94</subsection>
+    <name>S1_20</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>44.08</def>
+  </param60>
+  <param61>
+    <section>Schedule-1---Adjusted Gross Income section.</section>
+    <subsection>Tuition and fees.</subsection>
+    <name>S1_21</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param61>
+  <param62>
+    <section>Schedule A</section>
+    <subsection>Unreimbursed medical expenses.</subsection>
+    <name>A1</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>50000.00</max>
+    <def>0.00</def>
+  </param62>
+  <param63>
+    <section>Schedule A</section>
+    <subsection>State and local income taxes.(W-2's boxes 17 + 19.)  Or sales taxes.</subsection>
+    <name>A5a</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>3447.44</def>
+  </param63>
+  <param64>
+    <section>Schedule A</section>
+    <subsection>Check (Y) if using sales taxes instead of income taxes. (answer: Yes, No)</subsection>
+    <name>CheckBoxA5a</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>N</valtrans>
+    <valtrans>Y</valtrans>
+  </param64>
+  <param65>
+    <section>Schedule A</section>
+    <subsection>Real estate taxes.</subsection>
+    <name>A5b</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>1771.05</def>
+  </param65>
+  <param66>
+    <section>Schedule A</section>
+    <subsection>Personal property (eg. automobile) taxes.</subsection>
+    <name>A5c</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param66>
+  <param67>
+    <section>Schedule A</section>
+    <subsection>Other taxes.</subsection>
+    <name>A6</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param67>
+  <param68>
+    <section>Schedule A</section>
+    <subsection>Home mortgage interest and points reported to you on Form 1098.</subsection>
+    <name>A8a</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param68>
+  <param69>
+    <section>Schedule A</section>
+    <subsection>Home mortgage interest not reported to you on Form 1098.</subsection>
+    <name>A8b</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param69>
+  <param70>
+    <section>Schedule A</section>
+    <subsection>Points not reported to you on Form 1098.</subsection>
+    <name>A8c</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param70>
+  <param71>
+    <section>Schedule A</section>
+    <subsection>Mortgage insurance premiums.</subsection>
+    <name>A8d</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param71>
+  <param72>
+    <section>Schedule A</section>
+    <subsection>Investment interest. Attach Form 4952</subsection>
+    <name>A9</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param72>
+  <param73>
+    <section>Schedule A</section>
+    <subsection>Charity contributions by cash or check.</subsection>
+    <name>A11</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param73>
+  <param74>
+    <section>Schedule A</section>
+    <subsection>Contributions other than cash or check.</subsection>
+    <name>A12</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param74>
+  <param75>
+    <section>Schedule A</section>
+    <subsection>Carryover from prior year.</subsection>
+    <name>A13</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param75>
+  <param76>
+    <section>Schedule A</section>
+    <subsection>Casualty or theft loss(es).</subsection>
+    <name>A15</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param76>
+  <param77>
+    <section>Schedule A</section>
+    <subsection>Other expenses.</subsection>
+    <name>A16</name>
+    <Line></Line>
+    <type>float</type>
+    <min>0.00</min>
+    <max>10000.00</max>
+    <def>0.00</def>
+  </param77>
+  <param78>
+    <section>Schedule A</section>
+    <subsection>Elect to itemize, even when less than standard deduction. (answer: Yes, No)</subsection>
+    <name>A18</name>
+    <Line></Line>
+    <type>int</type>
+    <min>0</min>
+    <max>1</max>
+    <def>0</def>
+    <valtrans>N</valtrans>
+    <valtrans>Y</valtrans>
+  </param78>
+   <param79>
+     <section>Schedule B: Part III</section>
+     <subsection>Financial account in foreign country ? (answer: Yes, No)</subsection>
+     <name>B7a</name>
+     <Line></Line>
+     <type>int</type>
+     <min>0</min>
+     <max>1</max>
+     <def>0</def>
+     <valtrans>N</valtrans>
+     <valtrans>Y</valtrans>
+   </param79>
+   <param80>
+     <section>Schedule B: Part III</section>
+     <subsection>If yes above, did you file FinCEN Form 114 ? (answer: n/a, Yes, No)</subsection>
+     <name>B7aa</name>
+     <Line></Line>
+     <type>int</type>
+     <min>0</min>
+     <max>2</max>
+     <def>2</def>
+     <valtrans>N</valtrans>
+     <valtrans>Y</valtrans>
+     <valtrans> </valtrans>
+   </param80>
+   <param81>
+     <section>Schedule B: Part III</section>
+     <subsection>If yes above, name of country.</subsection>
+     <name>B7b</name>
+     <Line></Line>
+     <type>int</type>
+     <min>0</min>
+     <max>1</max>
+     <def>0</def>
+     <valtrans> </valtrans>
+     <valtrans>country1</valtrans>
+   </param81>
+   <param82>
+     <section>Schedule B: Part III</section>
+     <subsection>Did you receive a foreign trust? (answer: Yes, No)</subsection>
+     <name>B8</name>
+     <Line></Line>
+     <type>int</type>
+     <min>0</min>
+     <max>1</max>
+     <def>0</def>
+     <valtrans>N</valtrans>
+     <valtrans>Y</valtrans>
+   </param82>
+    <param83>
+      <section>Alternative Minimum Tax (AMT) Entries (if needed)</section>
+      <subsection>Investment interest expense (difference between regular tax and AMT) (Form 6251 line 2c).</subsection>
+      <name>AMTws2c</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param83>
+    <param84>
+      <section>Alternative Minimum Tax (AMT) Entries (if needed)</section>
+      <subsection>Private activity bond interest exempt from regular tax (Form 6251 line 2g).</subsection>
+      <name>AMTws2g</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param84>
+    <param85>
+      <section>Alternative Minimum Tax (AMT) Entries (if needed)</section>
+      <subsection>Other adjustments, including income-based related adjustments.</subsection>
+      <name>AMTws3</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param85>
+    <param86>
+      <section>Alternative Minimum Tax (AMT) Entries (if needed)</section>
+      <subsection>Alternative minimum tax foreign tax credit.</subsection>
+      <name>AMTws8</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param86>
+    <param87>
+      <section>Schedule 2: Additional Taxes</section>
+      <subsection>Excess advance premium tax credit repayment. Form 8962.</subsection>
+      <name>S2_2</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param87>
+    <param88>
+      <section>Schedule 2: Additional Taxes</section>
+      <subsection>Self-employment tax. Sched SE</subsection>
+      <name>S2_4</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>12.67</def>
+    </param88>
+    <param89>
+      <section>Schedule 2: Additional Taxes</section>
+      <subsection>Unreported social security and Medicare tax from Form 4137, 8919</subsection>
+      <name>S2_5</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param89>
+    <param90>
+      <section>Schedule 2: Additional Taxes</section>
+      <subsection>Additional tax on IRAs, other qualified retirement plans, Form 5329</subsection>
+      <name>S2_6</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param90>
+    <param91>
+      <section>Schedule 2: Additional Taxes</section>
+      <subsection>Household employment taxes. Sched H</subsection>
+      <name>S2_7a</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>34.23</def>
+    </param91>
+    <param92>
+      <section>Schedule 2: Additional Taxes</section>
+      <subsection>First-time homebuyer credit repayment. Form 5405.</subsection>
+      <name>S2_7b</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param92>
+    <param93>
+      <section>Schedule 2: Additional Taxes</section>
+      <subsection>Taxes from Forms 8959, 8960, others.</subsection>
+      <name>S2_8</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param93>
+    <param94>
+      <section>Schedule 2: Additional Taxes</section>
+      <subsection>Section 965 net tax liability installment from Form965-A. </subsection>
+      <name>S2_9</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param94>
+    <param95>
+      <section>Schedule 3: Part 1 - Nonrefundable Credits </section>
+      <subsection>Foreign tax credit, form 1116</subsection>
+      <name>S3_1</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>14.15</def>
+    </param95>
+    <param96>
+      <section>Schedule 3: Part 1 - Nonrefundable Credits </section>
+      <subsection>Child/dependent care expense credits. Form 2441.</subsection>
+      <name>S3_2</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param96>
+    <param97>
+      <section>Schedule 3: Part 1 - Nonrefundable Credits </section>
+      <subsection>Education credits. Form 8863, line 19.</subsection>
+      <name>S3_3</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param97>
+    <param98>
+      <section>Schedule 3: Part 1 - Nonrefundable Credits </section>
+      <subsection>Retirement savings contributions credit. Form 8880.</subsection>
+      <name>S3_4</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>31.31</def>
+    </param98>
+    <param99>
+      <section>Schedule 3: Part 1 - Nonrefundable Credits </section>
+      <subsection>Residential energy credits. Form 5695.</subsection>
+      <name>S3_5</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param99>
+    <param100>
+      <section>Schedule 3: Part 1 - Nonrefundable Credits </section>
+      <subsection>Other credits. Forms 3800, 8801, etc.</subsection>
+      <name>S3_6</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>1000.00</max>
+      <def>0.00</def>
+    </param100>
+    <param101>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Net premium tax credit. Form 8962.</subsection>
+      <name>S3_8</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>0.00</def>
+    </param101>
+    <param102>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Amnt paid in filing extension req.</subsection>
+      <name>S3_9</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>8.10</def>
+    </param102>
+    <param103>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Excess Soc. Sec. + tier 1 RRTA tax withheld.</subsection>
+      <name>S3_10</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>0.00</def>
+    </param103>
+    <param104>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Credits for federal tax on fuels. Attach form 4136.</subsection>
+      <name>S3_11</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>0.00</def>
+    </param104>
+    <param105>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Credits from Form 2439.</subsection>
+      <name>S3_12a</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>0.00</def>
+    </param105>
+    <param106>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Credits from Form 7202, qualified sick leave.</subsection>
+      <name>S3_12b</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>0.00</def>
+    </param106>
+    <param107>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Credits from Form 8885.</subsection>
+      <name>S3_12c</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>0.00</def>
+    </param107>
+    <param108>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Credits from Other.</subsection>
+      <name>S3_12d</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>0.00</def>
+    </param108>
+    <param109>
+      <section>Schedule 3: Part II - Other Payments and Refundable Credits</section>
+      <subsection>Deferral for certain Schedule H or SE filers.</subsection>
+      <name>S3_12e</name>
+      <Line></Line>
+      <type>float</type>
+      <min>0.00</min>
+      <max>100.00</max>
+      <def>0.00</def>
+    </param109>
+</inputs>
